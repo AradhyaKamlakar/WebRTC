@@ -1,9 +1,9 @@
 {
     "version": 2,
     "functions": {
-      "api/**/*.js": {
+      "index.js": {
         "runtime": "nodejs14.x"
       }
     }
-  }
+}
   

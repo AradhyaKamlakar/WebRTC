@@ -1,9 +1,10 @@
 {
     "version": 2,
-    "functions": {
-      "index.js": {
-        "runtime": "nodejs14.x"
+    "builds": [
+      {
+        "src": "public/**",
+        "use": "@vercel/static"
       }
-    }
+    ]
 }
   
